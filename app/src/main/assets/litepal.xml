@@ -1,13 +1,13 @@
 <litepal>
 
-    <dbname value="cool_weather" />
+    <dbname value="cold_weather" />
 
     <version value="1" />
 
     <list>
-        <mapping class="com.coolweather.android.db.Province" />
-        <mapping class="com.coolweather.android.db.City" />
-        <mapping class="com.coolweather.android.db.Country" />
+        <mapping class="com.example.xun.coldweather.db.Province" />
+        <mapping class="com.example.xun.coldweather.db.Country" />
+        <mapping class="com.example.xun.coldweather.db.City" /><!--一定要写完整的类名，不然不能进行映射-->
     </list>
 
 </litepal>
